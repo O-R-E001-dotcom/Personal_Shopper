@@ -2,9 +2,9 @@ import Form from "./Form.jsx";
 
 const App = () => {
   return (
-    <div className="min-h-screen text-slate-900">
+    <div className="min-h-screen text-slate-700">
       <div className="page-bg">
-        <header className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-6">
+        <header className="mx-auto flex w-full max-w-7xl items-center justify-between px-6 py-6">
           <div className="flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-slate-900 text-white shadow-lg">
               SA
@@ -21,8 +21,8 @@ const App = () => {
           </div>
         </header>
 
-        <main className="mx-auto w-full max-w-6xl px-6 pb-16">
-          <section className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
+        <main className="mx-auto w-full max-w-7xl px-6 pb-16">
+          <section className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
             <div className="space-y-6">
               <div className="inline-flex items-center gap-2 rounded-full bg-white/70 px-4 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-slate-600 shadow-sm">
                 Personalized Shopping
@@ -57,7 +57,7 @@ const App = () => {
               </div>
             </div>
 
-            <div className="glass-panel p-6 shadow-xl">
+            <div className="glass-panel p-6 shadow-xl lg:p-7">
               <Form />
             </div>
           </section>
